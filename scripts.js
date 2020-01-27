@@ -1,5 +1,6 @@
-<script>
-use document.getElementById();
 
+document.getElementById("Hello").addEventListener("click" , greetings);
 
-</script>
+function greetings(){
+  console.log();("Hello World");
+}
