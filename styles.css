@@ -1,0 +1,24 @@
+nav {
+
+  padding: 1em;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  background: white;
+  padding: 1em;
+  margin: 0 1em;
+  transition: background 2s;
+}
+
+a:hover {
+  background: #ff0000;
+  color: white;
+}
+
+h1{
+  display: flex;
+  align-content: center;
+}
