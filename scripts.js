@@ -1,6 +1,10 @@
+window.onload=function(){
+  const hello = document.getElementById("hello");
 
-document.getElementById("Hello").addEventListener("click" , greetings);
+  function greeting() {
+    alert("Hello!");
+    hello.textContent = "Goodbye";
+  }
 
-function greetings(){
-  console.log();("Hello World");
+  hello.addEventListener("click", greeting);
 }
